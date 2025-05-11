@@ -34,7 +34,15 @@ This project is a **Daily Time Record (DTR)** system designed to import and gene
      Person ID, Person Name, Date, Punch Records
      ```
 
-5. **Run the Project**  
+5. **Install LibreOffice**  
+   - The project requires `soffice` from LibreOffice to convert DOCX files to PDF.
+   - Download and install LibreOffice from [https://www.libreoffice.org/download/](https://www.libreoffice.org/download/).
+   - Ensure the `soffice` executable is located at:
+     ```
+     C:\Program Files\LibreOffice\program\soffice.exe
+     ```
+
+6. **Run the Project**  
    Use your local development environment (e.g., Laragon) to serve the project.
 
 ## Notes
